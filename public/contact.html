@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinzuki's Website - Contact</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <ul>
+                <li><a href="../public/index.html">Home</a></li>
+                <li><a href="../public/about.html">About Me</a></li>
+                <li><a href="../public/gallery.html">Photo Gallery</a></li>
+                <li><a href="../public/hobbies.html">Hobbies</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <section class="contact-intro">
+            <h2>Get in Touch</h2>
+            <p>I'm always open to new opportunities, collaborations, or just a friendly chat. Feel free to reach out through any of the methods below.</p>
+        </section>
+
+        <div class="contact-container">
+            <section class="contact-form-section">
+                <h3>Send Me a Message</h3>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Your Name <span class="required">*</span></label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your Email <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject <span class="required">*</span></label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message <span class="required">*</span></label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Preferred Contact Method</label>
+                        <div class="radio-group">
+                            <input type="radio" id="contact-email" name="contact-preference" value="email" checked>
+                            <label for="contact-email">Email</label>
+                            
+                            <input type="radio" id="contact-phone" name="contact-preference" value="phone">
+                            <label for="contact-phone">Phone</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="purpose">Purpose of Contact</label>
+                        <select id="purpose" name="purpose">
+                            <option value="">Please select...</option>
+                            <option value="job">Job Opportunity</option>
+                            <option value="project">Project Collaboration</option>
+                            <option value="question">Question</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Subscribe to my newsletter</label>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="agreement" name="agreement" required>
+                        <label for="agreement">I agree to the privacy policy <span class="required">*</span></label>
+                    </div>
+                    
+                    <div class="form-buttons">
+                        <button type="reset" class="button secondary">Reset</button>
+                        <button type="submit" class="button primary">Send Message</button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="contact-info-section">
+                <h3>Contact Information</h3>
+                
+                <div class="contact-method">
+                    <div class="contact-icon">
+                        <img src="../assets/images/email-logo.png" alt="Email">
+                    </div>
+                    <div class="contact-details">
+                        <h4>Email</h4>
+                        <p><a href="mailto:phamkiet173@email.com">phamkiet173@email.com</a></p>
+                    </div>
+                </div>
+                
+                <div class="contact-method">
+                    <div class="contact-icon">
+                        <img src="../assets/images/phone-logo.png" alt="Phone">
+                    </div>
+                    <div class="contact-details">
+                        <h4>Phone</h4>
+                        <p><a href="tel:+84859150559">(+84) 859-150-559</a></p>
+                    </div>
+                </div>
+                
+                <div class="contact-method">
+                    <div class="contact-icon">
+                        <img src="../assets/images/location-logo.png" alt="Location">
+                    </div>
+                    <div class="contact-details">
+                        <h4>Location</h4>
+                        <p>Konoha - Leaf Village</p>
+                    </div>
+                </div>
+                
+                <div class="social-media-contact">
+                    <h4>Social Media</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100014939588767" class="social-icon"><img src="../assets/images/facebook-logo.png" alt="Facebook"></a>
+                        <a href="https://www.instagram.com/tkayblue._/" class="social-icon"><img src="../assets/images/instagram-logo.png" alt="Instagram"></a>
+                        <a href="#" class="social-icon"><img src="../assets/images/linkedin-logo.png" alt="LinkedIn"></a>
+                        <a href="https://github.com/phamkiet1007" class="social-icon"><img src="../assets/images/github-logo.png" alt="GitHub"></a>
+                    </div>
+                </div>
+                
+                <div class="availability">
+                    <h4>Availability</h4>
+                    <p>Monday - Friday: 9AM - 5PM</p>
+                    <p>Response Time: Within 24-48 hours</p>
+                </div>
+            </section>
+        </div>
+
+        <section class="contact-map">
+            <h3>Find Me Here</h3>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <p>Leaf Village</p>
+                    <img src="../assets/images/konohavillage.webp" alt="Map of Leaf Village">
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <h3>Frequently Asked Questions</h3>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>Are you available for freelance work?</h4>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, I am currently taking on select freelance projects. Please use the contact form to describe your project in detail.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>What is your typical response time?</h4>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>I typically respond to all inquiries within 24-48 hours during business days.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>Do you offer consultations?</h4>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, I offer initial consultations via video call to discuss your project needs and how I can help.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>Email: phamkiet173@email.com</p>
+                <p>Phone: (+84) 859-150-559</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=100014939588767">Facebook</a>
+                    <a href="https://www.instagram.com/tkayblue._/">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="https://github.com/phamkiet1007">GitHub</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Site Navigation</h3>
+                <ul>
+                    <li><a href="../public/index.html">Home</a></li>
+                    <li><a href="../public/about.html">About</a></li>
+                    <li><a href="../public/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Sinzuki. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
